@@ -1,12 +1,12 @@
-<%@ page import="model_1.User" %>
-<%@ page import="model_1.FakeDao" %>
+<%@ page import="model_1.model.User" %>
+<%@ page import="model_1.model.FakeDao" %>
 <%@ page import="java.io.PrintWriter" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%
     String httpMethod = request.getMethod();
     if (httpMethod.equals("POST")) {
-        response.setContentType("text/html; charset=utf-8");
+        response.setContentType("text/plain; charset=utf-8");
         PrintWriter pw = response.getWriter();
         pw.println("잘못된 요청입니다");
         return;

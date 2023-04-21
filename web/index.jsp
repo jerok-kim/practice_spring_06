@@ -1,6 +1,6 @@
 <%--
   Created by IntelliJ IDEA.
-  model_1.User: jerok
+  model_1.model.User: jerok
   Date: 2023-04-21
   Time: 오후 4:36
   To change this template use File | Settings | File Templates.

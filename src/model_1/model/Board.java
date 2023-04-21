@@ -1,4 +1,4 @@
-package model_1;
+package model_1.model;
 
 public class Board {
     private int id;

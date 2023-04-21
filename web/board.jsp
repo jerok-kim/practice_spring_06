@@ -1,5 +1,5 @@
-<%@ page import="model_1.FakeDao" %>
-<%@ page import="model_1.Board" %>
+<%@ page import="model_1.model.FakeDao" %>
+<%@ page import="model_1.model.Board" %>
 <%@ page import="java.io.PrintWriter" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
@@ -8,7 +8,7 @@
     if (httpMethod.equals("POST")) {
         response.setContentType("text/html; charset=utf-8");
         PrintWriter pw = response.getWriter();
-        pw.println("잘못된 요청입니다");
+        pw.println("<h1>잘못된 요청입니다</h1>");
         return;
     }
     Board b1 = new FakeDao().boardData();

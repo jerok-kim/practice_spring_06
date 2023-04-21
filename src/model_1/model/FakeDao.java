@@ -1,4 +1,4 @@
-package model_1;
+package model_1.model;
 
 // Fake DataAccessObject (데이터베이스에 접근하는 클래스)
 public class FakeDao {
